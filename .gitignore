@@ -1,0 +1,35 @@
+# .gitignore for React project
+
+# Node.js
+node_modules/
+
+# Build files
+build/
+dist/
+out/
+
+# Dependency directories
+# These are often created by tools like npm
+# and should not be included in version control
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache files
+.cache/
+
+# Editor files
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
